@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swa');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel Decorative');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+
+.App {
+  text-align: center;
+  font-family:'Sedgwick Ave Display', cursive;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input{
+  width: 300px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50px;
+  font-family:'Architects Daughter', cursive;
+  font-size: 25px;
+}
+
+.card:hover{
+  width: 500px;
+  height: 170px;
+  border: 2px solid #5af3e6;
+  color: #5af3e6;
+  margin: 10px;
+  border-radius: 15px;
+  border-color: #5af3e6;
+  font-family: 'cinzel Decoratives' ;
+}
+
+.updateInput{
+  width:100px;
+  height:20px;
+  margin-bottom: 10px;
+}
